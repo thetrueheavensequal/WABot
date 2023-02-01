@@ -16,7 +16,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0)
 API_ID = int(environ.get("API_ID", "24833791")) #API ID
 API_HASH = environ.get("API_HASH", "42488cb247a33d13d5f97d6839c8e52b") #API HASH
 BOT_TOKEN = environ.get("BOT_TOKEN", "5898463551:AAESGh0DA-P0-K70Cy_4emMxhXWTAiz3rtU") #BOT TOKEN
-ORMONGO_RS_URL = environ.get("ORMONGO_RS_URL", "mongodb://lon5-c15-1.mongo.objectrocket.com:43160,lon5-c15-2.mongo.objectrocket.com:43160,lon5-c15-0.mongo.objectrocket.com:43160/?replicaSet=cb70448b1adb4aec9a5965dfea16eb34&ssl=true") #MONGO DB
+DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://plumblossomsword:Zfqa8vCRTbBWZSWm@yamai.5ceq94l.mongodb.net/?retryWrites=true&w=majority") #MONGO DB
 OWNER_ID = int(environ.get("OWNER_ID", "2064735436")) #OWNER ID
 MAIN_CHANNEL = int(environ.get("MAIN_CHANNEL", "-1001886875139"))#YOUR MAIN CHANNEL ID
 ARCHIVE_CHANNEL = int(environ.get("ARCHIVE_CHANNEL", "-1001249680167"))#YOUR ARCHIVE CHANNEL
