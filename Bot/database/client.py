@@ -1,7 +1,7 @@
 from pymongo import MongoClient 
-from Bot import ORMONGO_RS_URL, OWNER_ID
+from Bot import DATABASE_URL, OWNER_ID
 
-clientdb = MongoClient(ORMONGO_RS_URL)
+clientdb = MongoClient(DATABASE_URL)
 typedb = clientdb['SoheruGroup']
 users = typedb['users']
 channels = typedb['channels']
